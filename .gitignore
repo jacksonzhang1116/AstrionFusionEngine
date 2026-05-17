@@ -1,0 +1,84 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python虚拟环境
+venv/
+.venv/
+env/
+
+# Python打包产物
+build/
+dist/
+*.egg-info/
+
+# Node / Vue依赖
+node_modules/
+frontend/node_modules/
+
+# 前端构建产物
+frontend/dist/
+frontend/.vite/
+
+# 日志文件
+*.log
+logs/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+
+# 临时文件
+tmp/
+temp/
+cache/
+
+# 样例数据目录：保留目录，只忽略里面的数据文件
+data/*
+!data/.gitkeep
+
+# 原始数据集：保留目录，只忽略里面的数据集文件
+datasets/*
+!datasets/.gitkeep
+
+# AI模型与权重：保留目录，只忽略里面的模型文件
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.pb
+*.engine
+
+# 输出结果：保留目录，只忽略里面的结果文件
+outputs/*
+!outputs/.gitkeep
+
+# 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter缓存
+.ipynb_checkpoints/
+
+# TypeScript缓存
+*.tsbuildinfo
+
+# 固件编译产物
+firmware/**/build/
+firmware/**/.pio/
+firmware/**/*.bin
+firmware/**/*.elf
+firmware/**/*.hex
